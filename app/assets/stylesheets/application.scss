@@ -1,0 +1,49 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+$navbar-default-bg: #31708f;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+  float: left;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  float: left;
+  margin: 10px;
+}
+
+.jumbotron .container {
+  text-align: center;
+  padding: 25px;
+}
+
+.jumbotron h2 {
+  margin-bottom: 20px;
+}
+
+.left {
+  text-align: left;
+  letter-spacing: .5px;
+}
+
+.footer {
+  margin-top: 25px;
+  padding: 10px;
+  border-top: 1px solid #eee;
+  color: gray;
+}
